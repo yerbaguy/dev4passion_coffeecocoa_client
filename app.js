@@ -97,7 +97,9 @@ function showInfo() {
     document.querySelectorAll('.employeeDetails').forEach(info => info.remove())
     getData.forEach((element, index) => {
         let createElement = `<tr class="employeeDetails">
-            <td>${index + 1}</td>
+           
+           
+           
             <td><img src="${element.picture}" alt="" width="50" height="50"></td>
             <td>${element.coffee_roasted_product_description}</td>
            
