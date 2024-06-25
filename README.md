@@ -1,2 +1,2 @@
-# CoffeeCocoa Admin
-Admin part for CoffeeCocoa application
+# CoffeeCocoa Client
+Client part for CoffeeCocoa application
