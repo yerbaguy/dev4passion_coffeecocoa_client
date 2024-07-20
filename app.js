@@ -42,7 +42,9 @@ var form = document.getElementById("myForm"),
 
 
     // document.getElementById("test").innerHTML = localStorage.getItem('product').length;
-document.getElementById("test").innerHTML = getfromprod;
+
+
+////document.getElementById("test").innerHTML = getfromprod;
 
 
 let getData = localStorage.getItem('userProfile') ? JSON.parse(localStorage.getItem('userProfile')) : []
