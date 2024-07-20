@@ -258,10 +258,15 @@ function showInfo() {
     // console.log('show', prod);
     // console.log('prod numberOfUnits', prod[0].numberOfUnits);
 
-    prod = JSON.parse(localStorage.getItem('product'));
-    length = prod.length
+    ////commented out
+    // prod = JSON.parse(localStorage.getItem('product'));
+    // length = prod.length
+    ////commntedout
+
     //length = localStorage.length
-    console.log("lenght", length)
+    
+    ////console.log("lenght", length)
+    
     // for (let i=0; i<=prod.lenght-1; i++) {
 
     // }
@@ -270,12 +275,17 @@ function showInfo() {
     // const total = cartArray.reduce((prev, cur) => (cur.index * cur.numberOfUnits) + prev, 0);
     // console.log(total);
 
-    if (prod === null) {
-        prod = 0;
-    } else {
-        console.log('show', prod);
-        //console.log('prod numberOfUnits', prod[0].numberOfUnits);
-    }
+
+
+
+    ////commented out
+    // if (prod === null) {
+    //     prod = 0;
+    // } else {
+    //     console.log('show', prod);
+    //     //console.log('prod numberOfUnits', prod[0].numberOfUnits);
+    // }
+    /////commented out
 
 
 
