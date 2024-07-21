@@ -410,7 +410,9 @@ function showInfo() {
             <td>
                 <button style="background-color: #855c37" class="btn btn-success" onclick="readInfo(${index},'${element.picture}', '${element.coffee_roasted_product_description}', '${element.coffee_roasted_farm}', '${element.coffee_roasted_farmer}', '${element.coffee_roasted_roaster}','${element.coffee_roasted_dealer}', '${element.coffee_roasted_brand}', '${element.coffee_roasted_origin}')" data-bs-toggle="modal" data-bs-target="#readData">view moreeeeee</button>
                 <button style="background-color: #855c37" class="btn btn-success" onclick="changeNumberOfUnits('minus', ${index})" >-</button>
-                <button style="background-color: #855c37" class="btn btn-success" onclick="addToBasket(${index}, '${element.coffee_roasted_product_description}' )" >Add to Basket</button>
+             
+
+             
                 <button style="background-color: #855c37" class="btn btn-success" onclick="changeNumberOfUnits('plus', ${index})" >+</button>
 
 
